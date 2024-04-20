@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Alert, Dimensions, Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { CustomButton, FormField } from "../../components";
+import CustomButton from "../../components/CustomButton";
+import FormField from "../../components/FormField";
 import { images } from "../../constants";
 import { useGlobalContext } from "../../context/GlobalProvider";
 import { createUser } from "../../lib/appwrite";
