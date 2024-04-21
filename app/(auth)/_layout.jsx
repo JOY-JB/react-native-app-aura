@@ -1,5 +1,4 @@
 import { Stack } from "expo-router";
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 
 const AuthLayout = () => {
@@ -17,7 +16,6 @@ const AuthLayout = () => {
           headerShown: false,
         }}
       />
-      <StatusBar style="light" backgroundColor="#161622" />
     </Stack>
   );
 };
