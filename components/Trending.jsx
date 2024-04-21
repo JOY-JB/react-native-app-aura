@@ -1,12 +1,12 @@
-import { useState } from "react";
 import { ResizeMode, Video } from "expo-av";
-import * as Animatable from "react-native-animatable";
+import { useState } from "react";
 import {
   FlatList,
   Image,
   ImageBackground,
   TouchableOpacity,
 } from "react-native";
+import * as Animatable from "react-native-animatable";
 
 import { icons } from "../constants";
 
@@ -96,7 +96,7 @@ const Trending = ({ posts }) => {
       viewabilityConfig={{
         itemVisiblePercentThreshold: 70,
       }}
-      contentOffset={{ x: 170 }}
+      contentOffset={{ x: 140 }}
     />
   );
 };
